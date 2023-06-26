@@ -45,7 +45,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True)
 
     # following lines create boxes in which user can enter data required to make prediction
-    st.image("""https://tse3.mm.bing.net/th?id=OIP.HwiXMhupa8bzDoBA3ZfloQHaEr&pid=Api&P=0&h=180""")
+    st.image("""https://tse2.mm.bing.net/th?id=OIP.sdhM8qZUe0BFJi7WvzfrAgHaEK&pid=Api&P=0&h=180""")
     Store = st.number_input("EnterNumber of Store Number",min_value=1, max_value=50)
     Holiday = st.selectbox('Holiday Status',("Holiday","Not Holiday"))
     Temperature = st.number_input("Enter The Temperature value", min_value=1.0, max_value=75.0)
