@@ -45,6 +45,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html = True)
 
     # following lines create boxes in which user can enter data required to make prediction
+  st.image("""http://cdn.corporate.walmart.com/8d/68/ed7b99c944d499d61ed7a281abd1/walmart-store-exterior.jpg""")
     Store = st.number_input("EnterNumber of Store Number",min_value=1, max_value=50)
     Holiday = st.selectbox('Holiday Status',("Holiday","Not Holiday"))
     Temperature = st.number_input("Enter The Temperature value", min_value=1.0, max_value=75.0)
